@@ -19,10 +19,10 @@ public class ApiController {
         return apiService.createStudent(student);
     }
 
-    @GetMapping("/{studentId}")
-    public Student getOneLaptop(@PathVariable int studentId){
-         return apiService.getOneStudent(studentId);
-    }
+    // @GetMapping("/{studentId}")
+    // public Student getOneLaptop(@PathVariable int studentId){
+    //      return apiService.getOneStudent(studentId);
+    // }
 
     @GetMapping("/")
     public List<Student> getAllStudents() {
